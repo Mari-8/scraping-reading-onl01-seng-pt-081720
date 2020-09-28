@@ -1,11 +1,12 @@
 require 'nokogiri'
 require 'open-uri'
+require 'rubygems'
 
 
 
 doc = Nokogiri::HTML(open("https://flatironschool.com/"))
-puts doc.css(".headline-26OIBN").text
-
  doc.css(".text-4GLMvr").text
+ 
+ 
 
 
